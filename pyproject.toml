@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pavelvelem-moearch_jd439"
+name = "pavelvelem-tensor_parallel_split_length_profile"
 version = "0.1.0"
 description = "按段落统计MoE 模型架构师·张量并行切分策略相关的长度分布，标出过长、过短与重复表达的部分"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://pavelvelem.github.io"
-Repository = "https://github.com/pavelvelem/moearch_jd439"
-Issues = "https://github.com/pavelvelem/moearch_jd439/issues"
+Repository = "https://github.com/pavelvelem/tensor_parallel_split_length_profile"
+Issues = "https://github.com/pavelvelem/tensor_parallel_split_length_profile/issues"
 
 [project.scripts]
-moearch_jd439 = "moearch_jd439:main"
+tensor_parallel_split_length_profile = "tensor_parallel_split_length_profile:main"
 
 [tool.setuptools]
-py-modules = ["moearch_jd439"]
+py-modules = ["tensor_parallel_split_length_profile"]
